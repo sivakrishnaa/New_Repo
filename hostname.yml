@@ -1,0 +1,5 @@
+---
+ - hosts: localhost
+   tasks: 
+     - name: set the system hostname to FQDN
+       hostname: name={{ansible_hostname}}
